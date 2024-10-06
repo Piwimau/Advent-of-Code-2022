@@ -128,9 +128,10 @@ i9-13900HX, 32GB DDR5-5600 RAM) running Windows 11 24H2. All benchmarks include 
 reading the input from disk, as well as printing the puzzle results (although the output is written
 to `TextWriter.Null` when benchmarking, which is effectively a no-op and rather fast).
 
-| Day                              | Min        | Max        | Mean       | Median     | Standard Deviation |
-|----------------------------------|------------|------------|------------|------------|--------------------|
-| Day 1 - Calorie Counting         | 0.074 ms   | 0.078 ms   | 0.076 ms   | 0.076 ms   | 0.001 ms           |
+| Day                         | Min      | Max      | Mean     | Median   | Standard Deviation |
+|-----------------------------|----------|----------|----------|----------|--------------------|
+| Day 1 - Calorie Counting    | 0.074 ms | 0.078 ms | 0.076 ms | 0.076 ms | 0.001 ms           |
+| Day 2 - Rock Paper Scissors | 0.256 ms | 0.268 ms | 0.262 ms | 0.261 ms | 0.003 ms           |
 
 ## License
 
