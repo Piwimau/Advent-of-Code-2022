@@ -130,6 +130,7 @@ to `TextWriter.Null` when benchmarking, which is effectively a no-op and rather 
 
 | Day                              | Min        | Max        | Mean       | Median     | Standard Deviation |
 |----------------------------------|------------|------------|------------|------------|--------------------|
+| Day 1 - Calorie Counting         | 0.074 ms   | 0.078 ms   | 0.076 ms   | 0.076 ms   | 0.001 ms           |
 
 ## License
 
