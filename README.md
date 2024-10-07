@@ -135,6 +135,7 @@ to `TextWriter.Null` when benchmarking, which is effectively a no-op and rather 
 | Day 3 - Rucksack Reorganization | 0.351 ms | 0.373 ms | 0.359 ms | 0.357 ms | 0.007 ms           |
 | Day 4 - Camp Cleanup            | 0.149 ms | 0.155 ms | 0.151 ms | 0.150 ms | 0.002 ms           |
 | Day 5 - Supply Stacks           | 0.189 ms | 0.202 ms | 0.198 ms | 0.197 ms | 0.003 ms           |
+| Day 6 - Tuning Trouble          | 0.032 ms | 0.033 ms | 0.032 ms | 0.032 ms | 0.000 ms           |
 
 ## License
 
