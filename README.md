@@ -133,6 +133,7 @@ to `TextWriter.Null` when benchmarking, which is effectively a no-op and rather 
 | Day 1 - Calorie Counting        | 0.074 ms | 0.078 ms | 0.076 ms | 0.076 ms | 0.001 ms           |
 | Day 2 - Rock Paper Scissors     | 0.256 ms | 0.268 ms | 0.262 ms | 0.261 ms | 0.003 ms           |
 | Day 3 - Rucksack Reorganization | 0.351 ms | 0.373 ms | 0.359 ms | 0.357 ms | 0.007 ms           |
+| Day 4 - Camp Cleanup            | 0.149 ms | 0.155 ms | 0.151 ms | 0.150 ms | 0.002 ms           |
 
 ## License
 
