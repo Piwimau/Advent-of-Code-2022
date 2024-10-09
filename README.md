@@ -137,6 +137,7 @@ to `TextWriter.Null` when benchmarking, which is effectively a no-op and rather 
 | Day 5 - Supply Stacks           | 0.189 ms | 0.202 ms | 0.198 ms | 0.197 ms | 0.003 ms           |
 | Day 6 - Tuning Trouble          | 0.032 ms | 0.033 ms | 0.032 ms | 0.032 ms | 0.000 ms           |
 | Day 7 - No Space Left On Device | 0.218 ms | 0.225 ms | 0.221 ms | 0.221 ms | 0.002 ms           |
+| Day 8 - Treetop Tree House      | 0.549 ms | 0.567 ms | 0.556 ms | 0.558 ms | 0.005 ms           |
 
 ## License
 
