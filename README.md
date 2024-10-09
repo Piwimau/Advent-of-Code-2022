@@ -138,6 +138,7 @@ to `TextWriter.Null` when benchmarking, which is effectively a no-op and rather 
 | Day 6 - Tuning Trouble          | 0.032 ms | 0.033 ms | 0.032 ms | 0.032 ms | 0.000 ms           |
 | Day 7 - No Space Left On Device | 0.218 ms | 0.225 ms | 0.221 ms | 0.221 ms | 0.002 ms           |
 | Day 8 - Treetop Tree House      | 0.549 ms | 0.567 ms | 0.556 ms | 0.558 ms | 0.005 ms           |
+| Day 9 - Rope Bridge             | 0.985 ms | 1.024 ms | 1.000 ms | 0.998 ms | 0.011 ms           |
 
 ## License
 
