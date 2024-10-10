@@ -140,6 +140,7 @@ to `TextWriter.Null` when benchmarking, which is effectively a no-op and rather 
 | Day 8 - Treetop Tree House      | 0.549 ms | 0.567 ms | 0.556 ms | 0.558 ms | 0.005 ms           |
 | Day 9 - Rope Bridge             | 0.985 ms | 1.024 ms | 1.000 ms | 0.998 ms | 0.011 ms           |
 | Day 10 - Cathode-Ray Tube       | 0.024 ms | 0.024 ms | 0.024 ms | 0.024 ms | 0.000 ms           |
+| Day 11 - Monkey In The Middle   | 3.145 ms | 3.317 ms | 3.242 ms | 3.250 ms | 0.048 ms           |
 
 ## License
 

@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day 8 - Treetop Tree House"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day 9 - Rope Bridge", "Day 9 - Rope Bridge\Day 9 - Rope Bridge.csproj", "{D7BCF0D8-B116-40D1-BBF1-AD16A68D4037}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 10 - Cathode-Ray Tube", "Day 10 - Cathode-Ray Tube\Day 10 - Cathode-Ray Tube.csproj", "{F61794A0-18F1-41DF-8CDE-1EBF90470C86}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day 10 - Cathode-Ray Tube", "Day 10 - Cathode-Ray Tube\Day 10 - Cathode-Ray Tube.csproj", "{F61794A0-18F1-41DF-8CDE-1EBF90470C86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 11 - Monkey In The Middle", "Day 11 - Monkey In The Middle\Day 11 - Monkey In The Middle.csproj", "{9EF313F0-6C44-4E41-B813-EC7B37532055}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{F61794A0-18F1-41DF-8CDE-1EBF90470C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F61794A0-18F1-41DF-8CDE-1EBF90470C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F61794A0-18F1-41DF-8CDE-1EBF90470C86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EF313F0-6C44-4E41-B813-EC7B37532055}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF313F0-6C44-4E41-B813-EC7B37532055}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF313F0-6C44-4E41-B813-EC7B37532055}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF313F0-6C44-4E41-B813-EC7B37532055}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
