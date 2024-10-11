@@ -75,7 +75,7 @@ internal sealed class TreetopTreeHouse {
             );
         }
 
-        /// <summary>Parses a map of tree heights from a given string.</summary>
+        /// <summary>Parses a <see cref="Map"/> of tree heights from a given string.</summary>
         /// <remarks>
         /// The given string <paramref name="s"/> must consist of zero or more lines of only digits
         /// '0' through '9' representing the tree heights of the <see cref="Map"/>. All lines must

@@ -128,19 +128,20 @@ i9-13900HX, 32GB DDR5-5600 RAM) running Windows 11 24H2. All benchmarks include 
 reading the input from disk, as well as printing the puzzle results (although the output is written
 to `TextWriter.Null` when benchmarking, which is effectively a no-op and rather fast).
 
-| Day                             | Min      | Max      | Mean     | Median   | Standard Deviation |
-|---------------------------------|----------|----------|----------|----------|--------------------|
-| Day 1 - Calorie Counting        | 0.074 ms | 0.078 ms | 0.076 ms | 0.076 ms | 0.001 ms           |
-| Day 2 - Rock Paper Scissors     | 0.256 ms | 0.268 ms | 0.262 ms | 0.261 ms | 0.003 ms           |
-| Day 3 - Rucksack Reorganization | 0.351 ms | 0.373 ms | 0.359 ms | 0.357 ms | 0.007 ms           |
-| Day 4 - Camp Cleanup            | 0.149 ms | 0.155 ms | 0.151 ms | 0.150 ms | 0.002 ms           |
-| Day 5 - Supply Stacks           | 0.189 ms | 0.202 ms | 0.198 ms | 0.197 ms | 0.003 ms           |
-| Day 6 - Tuning Trouble          | 0.032 ms | 0.033 ms | 0.032 ms | 0.032 ms | 0.000 ms           |
-| Day 7 - No Space Left On Device | 0.218 ms | 0.225 ms | 0.221 ms | 0.221 ms | 0.002 ms           |
-| Day 8 - Treetop Tree House      | 0.549 ms | 0.567 ms | 0.556 ms | 0.558 ms | 0.005 ms           |
-| Day 9 - Rope Bridge             | 0.985 ms | 1.024 ms | 1.000 ms | 0.998 ms | 0.011 ms           |
-| Day 10 - Cathode-Ray Tube       | 0.024 ms | 0.024 ms | 0.024 ms | 0.024 ms | 0.000 ms           |
-| Day 11 - Monkey In The Middle   | 3.145 ms | 3.317 ms | 3.242 ms | 3.250 ms | 0.048 ms           |
+| Day                              | Min       | Max       | Mean      | Median    | Standard Deviation |
+|----------------------------------|-----------|-----------|-----------|-----------|--------------------|
+| Day 1 - Calorie Counting         |  0.074 ms |  0.078 ms |  0.076 ms |  0.076 ms | 0.001 ms           |
+| Day 2 - Rock Paper Scissors      |  0.256 ms |  0.268 ms |  0.262 ms |  0.261 ms | 0.003 ms           |
+| Day 3 - Rucksack Reorganization  |  0.351 ms |  0.373 ms |  0.359 ms |  0.357 ms | 0.007 ms           |
+| Day 4 - Camp Cleanup             |  0.149 ms |  0.155 ms |  0.151 ms |  0.150 ms | 0.002 ms           |
+| Day 5 - Supply Stacks            |  0.189 ms |  0.202 ms |  0.198 ms |  0.197 ms | 0.003 ms           |
+| Day 6 - Tuning Trouble           |  0.032 ms |  0.033 ms |  0.032 ms |  0.032 ms | 0.000 ms           |
+| Day 7 - No Space Left On Device  |  0.218 ms |  0.225 ms |  0.221 ms |  0.221 ms | 0.002 ms           |
+| Day 8 - Treetop Tree House       |  0.549 ms |  0.567 ms |  0.556 ms |  0.558 ms | 0.005 ms           |
+| Day 9 - Rope Bridge              |  0.985 ms |  1.024 ms |  1.000 ms |  0.998 ms | 0.011 ms           |
+| Day 10 - Cathode-Ray Tube        |  0.024 ms |  0.024 ms |  0.024 ms |  0.024 ms | 0.000 ms           |
+| Day 11 - Monkey In The Middle    |  3.145 ms |  3.317 ms |  3.242 ms |  3.250 ms | 0.048 ms           |
+| Day 12 - Hill Climbing Algorithm | 31.046 ms | 33.007 ms | 31.880 ms | 31.942 ms | 0.521 ms           |
 
 ## License
 
