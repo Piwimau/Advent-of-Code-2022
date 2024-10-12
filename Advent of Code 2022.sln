@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day 11 - Monkey In The Midd
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day 12 - Hill Climbing Algorithm", "Day 12 - Hill Climbing Algorithm\Day 12 - Hill Climbing Algorithm.csproj", "{9AFF7F5E-782B-4E98-9745-4A6BF5066496}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 13 - Distress Signal", "Day 13 - Distress Signal\Day 13 - Distress Signal.csproj", "{94DA41CC-07E4-4FE1-8B1C-2DBD1923F909}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day 13 - Distress Signal", "Day 13 - Distress Signal\Day 13 - Distress Signal.csproj", "{94DA41CC-07E4-4FE1-8B1C-2DBD1923F909}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 14 - Regolith Reservoir", "Day 14 - Regolith Reservoir\Day 14 - Regolith Reservoir.csproj", "{41819F60-FB8B-42C3-BE77-973E9CB31A76}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{94DA41CC-07E4-4FE1-8B1C-2DBD1923F909}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94DA41CC-07E4-4FE1-8B1C-2DBD1923F909}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94DA41CC-07E4-4FE1-8B1C-2DBD1923F909}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41819F60-FB8B-42C3-BE77-973E9CB31A76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41819F60-FB8B-42C3-BE77-973E9CB31A76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41819F60-FB8B-42C3-BE77-973E9CB31A76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41819F60-FB8B-42C3-BE77-973E9CB31A76}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

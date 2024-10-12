@@ -143,6 +143,7 @@ to `TextWriter.Null` when benchmarking, which is effectively a no-op and rather 
 | Day 11 - Monkey In The Middle    |  3.145 ms |  3.317 ms |  3.242 ms |  3.250 ms | 0.048 ms           |
 | Day 12 - Hill Climbing Algorithm | 31.046 ms | 33.007 ms | 31.880 ms | 31.942 ms | 0.521 ms           |
 | Day 13 - Distress Signal         |  0.457 ms |  0.470 ms |  0.465 ms |  0.466 ms | 0.004 ms           |
+| Day 14 - Regolith Reservoir      | 60.217 ms | 63.281 ms | 61.523 ms | 61.371 ms | 0.995 ms           |
 
 ## License
 
