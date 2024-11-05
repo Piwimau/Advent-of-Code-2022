@@ -270,7 +270,7 @@ internal sealed partial class ProboscideaVolcanium {
             // If we haven't got enough time left to even reach the destination and open its valve
             // or if we have already opened the valve, there is no point in traveling to that
             // destination again.
-            if ((remainingMinutes <= 0) || ((state.Path & destination.Mask) != 0)) {
+            if ((remainingMinutes <= 0) || ((state.Path & destination.Mask) != 0U)) {
                 continue;
             }
             int releasedPressure = destination.FlowRate * remainingMinutes;

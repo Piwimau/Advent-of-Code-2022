@@ -62,7 +62,7 @@ LICENSE
 README.md
 ```
 
-On the top level, the [solution file](Advent+of+Code+2022.sln) contains 25 standalone projects
+On the top level, the [solution file](<Advent of Code 2022.sln>) contains 25 standalone projects
 for the days of the Advent calendar, organized into separate directories. Each one provides a
 corresponding `.csproj` file that can be opened in Visual Studio. In addition, there are the usual
 `Source` and `Resources` directories, the latter of which contains the puzzle description and my
@@ -118,7 +118,7 @@ If you want to try one of my solutions, follow these steps below:
    ```
 
 If you have Visual Studio installed on your machine, you may also just open the provided
-[solution file](Advent+of+Code+2022.sln) and proceed from there.
+[solution file](<Advent of Code 2022.sln>) and proceed from there.
 
 ## Benchmarks
 
@@ -130,22 +130,23 @@ to `TextWriter.Null` when benchmarking, which is effectively a no-op and rather 
 
 | Day                              | Min        | Max        | Mean       | Median     | Standard Deviation |
 |----------------------------------|------------|------------|------------|------------|--------------------|
-| Day 1 - Calorie Counting         |   0.074 ms |   0.078 ms |   0.076 ms |   0.076 ms |  0.001 ms          |
-| Day 2 - Rock Paper Scissors      |   0.256 ms |   0.268 ms |   0.262 ms |   0.261 ms |  0.003 ms          |
-| Day 3 - Rucksack Reorganization  |   0.351 ms |   0.373 ms |   0.359 ms |   0.357 ms |  0.007 ms          |
-| Day 4 - Camp Cleanup             |   0.149 ms |   0.155 ms |   0.151 ms |   0.150 ms |  0.002 ms          |
-| Day 5 - Supply Stacks            |   0.189 ms |   0.202 ms |   0.198 ms |   0.197 ms |  0.003 ms          |
-| Day 6 - Tuning Trouble           |   0.032 ms |   0.033 ms |   0.032 ms |   0.032 ms |  0.000 ms          |
-| Day 7 - No Space Left On Device  |   0.218 ms |   0.225 ms |   0.221 ms |   0.221 ms |  0.002 ms          |
-| Day 8 - Treetop Tree House       |   0.549 ms |   0.567 ms |   0.556 ms |   0.558 ms |  0.005 ms          |
-| Day 9 - Rope Bridge              |   0.985 ms |   1.024 ms |   1.000 ms |   0.998 ms |  0.011 ms          |
-| Day 10 - Cathode-Ray Tube        |   0.024 ms |   0.024 ms |   0.024 ms |   0.024 ms |  0.000 ms          |
-| Day 11 - Monkey In The Middle    |   3.145 ms |   3.317 ms |   3.242 ms |   3.250 ms |  0.048 ms          |
-| Day 12 - Hill Climbing Algorithm |  31.046 ms |  33.007 ms |  31.880 ms |  31.942 ms |  0.521 ms          |
-| Day 13 - Distress Signal         |   0.457 ms |   0.470 ms |   0.465 ms |   0.466 ms |  0.004 ms          |
-| Day 14 - Regolith Reservoir      |  60.217 ms |  63.281 ms |  61.523 ms |  61.371 ms |  0.995 ms          |
-| Day 15 - Beacon Exclusion Zone   | 131.883 ms | 149.289 ms | 138.898 ms | 137.454 ms |  4.843 ms          |
-| Day 16 - Proboscidea Volcanium   | 739.227 ms | 793.160 ms | 766.890 ms | 765.410 ms | 17.228 ms          |
+| Day 1 - Calorie Counting         |   0.074 ms |   0.078 ms |   0.076 ms |   0.076 ms |           0.001 ms |
+| Day 2 - Rock Paper Scissors      |   0.256 ms |   0.268 ms |   0.262 ms |   0.261 ms |           0.003 ms |
+| Day 3 - Rucksack Reorganization  |   0.351 ms |   0.373 ms |   0.359 ms |   0.357 ms |           0.007 ms |
+| Day 4 - Camp Cleanup             |   0.149 ms |   0.155 ms |   0.151 ms |   0.150 ms |           0.002 ms |
+| Day 5 - Supply Stacks            |   0.189 ms |   0.202 ms |   0.198 ms |   0.197 ms |           0.003 ms |
+| Day 6 - Tuning Trouble           |   0.032 ms |   0.033 ms |   0.032 ms |   0.032 ms |           0.000 ms |
+| Day 7 - No Space Left On Device  |   0.218 ms |   0.225 ms |   0.221 ms |   0.221 ms |           0.002 ms |
+| Day 8 - Treetop Tree House       |   0.549 ms |   0.567 ms |   0.556 ms |   0.558 ms |           0.005 ms |
+| Day 9 - Rope Bridge              |   0.985 ms |   1.024 ms |   1.000 ms |   0.998 ms |           0.011 ms |
+| Day 10 - Cathode-Ray Tube        |   0.024 ms |   0.024 ms |   0.024 ms |   0.024 ms |           0.000 ms |
+| Day 11 - Monkey In The Middle    |   3.145 ms |   3.317 ms |   3.242 ms |   3.250 ms |           0.048 ms |
+| Day 12 - Hill Climbing Algorithm |  31.046 ms |  33.007 ms |  31.880 ms |  31.942 ms |           0.521 ms |
+| Day 13 - Distress Signal         |   0.457 ms |   0.470 ms |   0.465 ms |   0.466 ms |           0.004 ms |
+| Day 14 - Regolith Reservoir      |  60.217 ms |  63.281 ms |  61.523 ms |  61.371 ms |           0.995 ms |
+| Day 15 - Beacon Exclusion Zone   | 131.883 ms | 149.289 ms | 138.898 ms | 137.454 ms |           4.843 ms |
+| Day 16 - Proboscidea Volcanium   | 739.227 ms | 793.160 ms | 766.890 ms | 765.410 ms |          17.228 ms |
+| Day 17 - Pyroclastic Flow        |   2.396 ms |   2.459 ms |   2.420 ms |   2.413 ms |           0.017 ms |
 
 ## License
 
