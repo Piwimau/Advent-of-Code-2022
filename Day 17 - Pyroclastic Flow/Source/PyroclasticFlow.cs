@@ -127,7 +127,7 @@ internal sealed class PyroclasticFlow {
     /// <exception cref="ArgumentOutOfRangeException">
     /// Thrown when <paramref name="jets"/> has a length of zero.
     /// </exception>
-    private static (long FirstHeight, long SecondHeight) SimulateFallingRocks(
+    private static (int FirstHeight, long SecondHeight) SimulateFallingRocks(
         ReadOnlySpan<Jet> jets
     ) {
         if (jets.Length == 0) {
@@ -186,7 +186,7 @@ internal sealed class PyroclasticFlow {
                 int settledRocksDifference = settledRocks - state.SettledRocks;
                 long remainingFallingRocks = SecondCheckpoint - settledRocks - 1L;
                 long remainingCycles = (remainingFallingRocks / settledRocksDifference) + 1L;
-                if (settledRocks + (remainingCycles * settledRocksDifference) == SecondCheckpoint) {
+                if ((settledRocks + (remainingCycles * settledRocksDifference)) == SecondCheckpoint) {
                     secondHeight = height + (remainingCycles * (height - state.Height));
                 }
             }
@@ -205,7 +205,7 @@ internal sealed class PyroclasticFlow {
     internal static void Solve(TextWriter textWriter) {
         ArgumentNullException.ThrowIfNull(textWriter, nameof(textWriter));
         ReadOnlySpan<Jet> jets = [.. File.ReadAllText(InputFile).Select(ParseJet)];
-        (long firstHeight, long secondHeight) = SimulateFallingRocks(jets);
+        (int firstHeight, long secondHeight) = SimulateFallingRocks(jets);
         textWriter.WriteLine(
             $"After {FirstCheckpoint} rocks have stopped falling, the tower is {firstHeight} "
                 + "units tall."
