@@ -173,11 +173,11 @@ internal sealed partial class MonkeyInTheMiddle {
             Func<long, long> operation = lines[OperationLine][OperatorIndex] switch {
                 '+' => lines[OperationLine][OperandStartIndex..] switch {
                     "old" => (item) => item + item,
-                    _ => (item) => item + operand,
+                    _ => (item) => item + operand
                 },
                 _ => lines[OperationLine][OperandStartIndex..] switch {
                     "old" => (item) => item * item,
-                    _ => (item) => item * operand,
+                    _ => (item) => item * operand
                 }
             };
             long divisor = long.Parse(lines[TestLine][DivisorStartIndex..]);

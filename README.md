@@ -38,7 +38,7 @@ solutions and sometimes little sketches to better illustrate the way a piece of 
 
 The general structure of this project is as follows:
 
-```
+```plaintext
 Day 1 - Calorie Counting/
     Resources/
         .gitkeep
@@ -148,6 +148,7 @@ to `TextWriter.Null` when benchmarking, which is effectively a no-op and rather 
 | Day 16 - Proboscidea Volcanium   | 739.227 ms | 793.160 ms | 766.890 ms | 765.410 ms |          17.228 ms |
 | Day 17 - Pyroclastic Flow        |   2.396 ms |   2.459 ms |   2.420 ms |   2.413 ms |           0.017 ms |
 | Day 18 - Boiling Boulders        |   0.998 ms |   1.017 ms |   1.011 ms |   1.012 ms |           0.005 ms |
+| Day 19 - Not Enough Minerals     | 138.494 ms | 143.386 ms | 141.112 ms | 141.455 ms |           1.506 ms |
 
 ## License
 
