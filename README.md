@@ -9,22 +9,21 @@ my second year of participation.
 [Eric Wastl](http://was.tl/). Every day from December 1st to 25th, a puzzle is released alongside an
 engaging fictional Christmas story. Each puzzle consists of two parts, the second of which usually
 contains some interesting twist or changing requirements and is only unlocked after completing the
-first one. The objective is to solve all parts and collect fifty stars ⭐ until December 25th to
-save Christmas.
+first one. The objective is to solve all parts and collect fifty stars ⭐ until December 25th to save
+Christmas.
 
-Many users compete on the [global leaderboard](https://adventofcode.com/2022/leaderboard) by
-solving the puzzles in an unbelievably fast way in order to get some extra points. Personally,
-I see Advent of Code as a fun exercise to do during the Advent season while waiting for Christmas.
-I often use it to learn a new programming language (like I did in 2021 with `C#`) or some advanced
-programming concepts. I can only encourage you to participate as well - of course in a way that you
-find fun. Just get started and learn more about Advent of Code
-[here](https://adventofcode.com/2022/about).
+Many users compete on the [global leaderboard](https://adventofcode.com/2022/leaderboard) by solving
+the puzzles in an unbelievably fast way in order to get some extra points. Personally, I see Advent
+of Code as a fun exercise to do during the Advent season while waiting for Christmas. I often use it
+to learn a new programming language (like I did in 2021 with `C#`) or some advanced programming
+concepts. I can only encourage you to participate as well - of course in a way that you find fun.
+Just get started and learn more about Advent of Code [here](https://adventofcode.com/2022/about).
 
 ## About this project
 
 The solutions for Advent of Code 2022 were originally developed using `.NET 7` and `C# 11` at the
-time. Since then I have taken some time to update them to more recent versions (`.NET 8` and
-`C# 12`), which allowed me to take advantage of new language features and modern data structures
+time. Since then I have taken some time to update them to more recent versions (`.NET 9` and
+`C# 13`), which allowed me to take advantage of new language features and modern data structures
 that either did not exist yet or I did not know about (as I was still learning the whole ecosystem).
 These include expression bodies (`=>`), collection expressions (`[...]`), target-typed `new()`,
 `Span<T>` and `ReadOnlySpan<T>`, types of the `System.Collections.Immutable` or
@@ -78,9 +77,9 @@ in the following section.
 
 ## Dependencies and usage
 
-If you want to try one of my solutions, follow these steps below:
+If you want to try out one of my solutions, simply follow these steps below:
 
-0. Make sure you have `.NET 8` or a later version installed on your machine.
+0. Make sure you have `.NET 9` or a later version installed on your machine.
 
 1. Clone the repository (or download the source code) to a directory of your choice.
 
@@ -130,25 +129,25 @@ to `TextWriter.Null` when benchmarking, which is effectively a no-op and rather 
 
 | Day                              | Min        | Max        | Mean       | Median     | Standard Deviation |
 |----------------------------------|------------|------------|------------|------------|--------------------|
-| Day 1 - Calorie Counting         |   0.074 ms |   0.078 ms |   0.076 ms |   0.076 ms |           0.001 ms |
-| Day 2 - Rock Paper Scissors      |   0.256 ms |   0.268 ms |   0.262 ms |   0.261 ms |           0.003 ms |
-| Day 3 - Rucksack Reorganization  |   0.351 ms |   0.373 ms |   0.359 ms |   0.357 ms |           0.007 ms |
-| Day 4 - Camp Cleanup             |   0.149 ms |   0.155 ms |   0.151 ms |   0.150 ms |           0.002 ms |
-| Day 5 - Supply Stacks            |   0.189 ms |   0.202 ms |   0.198 ms |   0.197 ms |           0.003 ms |
-| Day 6 - Tuning Trouble           |   0.032 ms |   0.033 ms |   0.032 ms |   0.032 ms |           0.000 ms |
-| Day 7 - No Space Left On Device  |   0.218 ms |   0.225 ms |   0.221 ms |   0.221 ms |           0.002 ms |
-| Day 8 - Treetop Tree House       |   0.549 ms |   0.567 ms |   0.556 ms |   0.558 ms |           0.005 ms |
-| Day 9 - Rope Bridge              |   0.985 ms |   1.024 ms |   1.000 ms |   0.998 ms |           0.011 ms |
-| Day 10 - Cathode-Ray Tube        |   0.024 ms |   0.024 ms |   0.024 ms |   0.024 ms |           0.000 ms |
-| Day 11 - Monkey In The Middle    |   3.145 ms |   3.317 ms |   3.242 ms |   3.250 ms |           0.048 ms |
-| Day 12 - Hill Climbing Algorithm |  31.046 ms |  33.007 ms |  31.880 ms |  31.942 ms |           0.521 ms |
-| Day 13 - Distress Signal         |   0.457 ms |   0.470 ms |   0.465 ms |   0.466 ms |           0.004 ms |
-| Day 14 - Regolith Reservoir      |  60.217 ms |  63.281 ms |  61.523 ms |  61.371 ms |           0.995 ms |
-| Day 15 - Beacon Exclusion Zone   | 131.883 ms | 149.289 ms | 138.898 ms | 137.454 ms |           4.843 ms |
-| Day 16 - Proboscidea Volcanium   | 739.227 ms | 793.160 ms | 766.890 ms | 765.410 ms |          17.228 ms |
-| Day 17 - Pyroclastic Flow        |   2.396 ms |   2.459 ms |   2.420 ms |   2.413 ms |           0.017 ms |
-| Day 18 - Boiling Boulders        |   0.998 ms |   1.017 ms |   1.011 ms |   1.012 ms |           0.005 ms |
-| Day 19 - Not Enough Minerals     | 138.494 ms | 143.386 ms | 141.112 ms | 141.455 ms |           1.506 ms |
+| Day 1 - Calorie Counting         |   0.069 ms |   0.071 ms |   0.069 ms |   0.069 ms |           0.001 ms |
+| Day 2 - Rock Paper Scissors      |   0.235 ms |   0.239 ms |   0.237 ms |   0.236 ms |           0.001 ms |
+| Day 3 - Rucksack Reorganization  |   0.318 ms |   0.337 ms |   0.329 ms |   0.330 ms |           0.005 ms |
+| Day 4 - Camp Cleanup             |   0.137 ms |   0.140 ms |   0.139 ms |   0.139 ms |           0.001 ms |
+| Day 5 - Supply Stacks            |   0.170 ms |   0.174 ms |   0.173 ms |   0.173 ms |           0.001 ms |
+| Day 6 - Tuning Trouble           |   0.028 ms |   0.029 ms |   0.029 ms |   0.029 ms |           0.000 ms |
+| Day 7 - No Space Left On Device  |   0.185 ms |   0.188 ms |   0.186 ms |   0.187 ms |           0.001 ms |
+| Day 8 - Treetop Tree House       |   0.513 ms |   0.539 ms |   0.523 ms |   0.521 ms |           0.008 ms |
+| Day 9 - Rope Bridge              |   0.943 ms |   0.964 ms |   0.954 ms |   0.954 ms |           0.006 ms |
+| Day 10 - Cathode-Ray Tube        |   0.022 ms |   0.023 ms |   0.022 ms |   0.022 ms |           0.000 ms |
+| Day 11 - Monkey In The Middle    |   3.140 ms |   3.190 ms |   3.166 ms |   3.169 ms |           0.014 ms |
+| Day 12 - Hill Climbing Algorithm |  29.744 ms |  31.156 ms |  30.622 ms |  30.613 ms |           0.353 ms |
+| Day 13 - Distress Signal         |   0.420 ms |   0.432 ms |   0.426 ms |   0.426 ms |           0.003 ms |
+| Day 14 - Regolith Reservoir      |  58.409 ms |  61.027 ms |  59.449 ms |  59.324 ms |           0.764 ms |
+| Day 15 - Beacon Exclusion Zone   | 133.735 ms | 140.129 ms | 136.489 ms | 135.957 ms |           1.777 ms |
+| Day 16 - Proboscidea Volcanium   | 730.019 ms | 775.538 ms | 750.803 ms | 750.714 ms |          13.966 ms |
+| Day 17 - Pyroclastic Flow        |   2.056 ms |   2.144 ms |   2.091 ms |   2.091 ms |           0.022 ms |
+| Day 18 - Boiling Boulders        |   1.028 ms |   1.074 ms |   1.054 ms |   1.052 ms |           0.011 ms |
+| Day 19 - Not Enough Minerals     | 131.870 ms | 141.179 ms | 136.107 ms | 136.157 ms |           2.409 ms |
 
 ## License
 
