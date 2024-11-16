@@ -127,27 +127,28 @@ i9-13900HX, 32GB DDR5-5600 RAM) running Windows 11 24H2. All benchmarks include 
 reading the input from disk, as well as printing the puzzle results (although the output is written
 to `TextWriter.Null` when benchmarking, which is effectively a no-op and rather fast).
 
-| Day                              | Min        | Max        | Mean       | Median     | Standard Deviation |
-|----------------------------------|------------|------------|------------|------------|--------------------|
-| Day 1 - Calorie Counting         |   0.069 ms |   0.071 ms |   0.069 ms |   0.069 ms |           0.001 ms |
-| Day 2 - Rock Paper Scissors      |   0.235 ms |   0.239 ms |   0.237 ms |   0.236 ms |           0.001 ms |
-| Day 3 - Rucksack Reorganization  |   0.318 ms |   0.337 ms |   0.329 ms |   0.330 ms |           0.005 ms |
-| Day 4 - Camp Cleanup             |   0.137 ms |   0.140 ms |   0.139 ms |   0.139 ms |           0.001 ms |
-| Day 5 - Supply Stacks            |   0.170 ms |   0.174 ms |   0.173 ms |   0.173 ms |           0.001 ms |
-| Day 6 - Tuning Trouble           |   0.028 ms |   0.029 ms |   0.029 ms |   0.029 ms |           0.000 ms |
-| Day 7 - No Space Left On Device  |   0.185 ms |   0.188 ms |   0.186 ms |   0.187 ms |           0.001 ms |
-| Day 8 - Treetop Tree House       |   0.513 ms |   0.539 ms |   0.523 ms |   0.521 ms |           0.008 ms |
-| Day 9 - Rope Bridge              |   0.943 ms |   0.964 ms |   0.954 ms |   0.954 ms |           0.006 ms |
-| Day 10 - Cathode-Ray Tube        |   0.022 ms |   0.023 ms |   0.022 ms |   0.022 ms |           0.000 ms |
-| Day 11 - Monkey In The Middle    |   3.140 ms |   3.190 ms |   3.166 ms |   3.169 ms |           0.014 ms |
-| Day 12 - Hill Climbing Algorithm |  29.744 ms |  31.156 ms |  30.622 ms |  30.613 ms |           0.353 ms |
-| Day 13 - Distress Signal         |   0.420 ms |   0.432 ms |   0.426 ms |   0.426 ms |           0.003 ms |
-| Day 14 - Regolith Reservoir      |  58.409 ms |  61.027 ms |  59.449 ms |  59.324 ms |           0.764 ms |
-| Day 15 - Beacon Exclusion Zone   | 133.735 ms | 140.129 ms | 136.489 ms | 135.957 ms |           1.777 ms |
-| Day 16 - Proboscidea Volcanium   | 730.019 ms | 775.538 ms | 750.803 ms | 750.714 ms |          13.966 ms |
-| Day 17 - Pyroclastic Flow        |   2.056 ms |   2.144 ms |   2.091 ms |   2.091 ms |           0.022 ms |
-| Day 18 - Boiling Boulders        |   1.028 ms |   1.074 ms |   1.054 ms |   1.052 ms |           0.011 ms |
-| Day 19 - Not Enough Minerals     | 131.870 ms | 141.179 ms | 136.107 ms | 136.157 ms |           2.409 ms |
+| Day                               | Min        | Max        | Mean       | Median     | Standard Deviation |
+|-----------------------------------|------------|------------|------------|------------|--------------------|
+| Day 1 - Calorie Counting          |   0.069 ms |   0.071 ms |   0.069 ms |   0.069 ms |           0.001 ms |
+| Day 2 - Rock Paper Scissors       |   0.235 ms |   0.239 ms |   0.237 ms |   0.236 ms |           0.001 ms |
+| Day 3 - Rucksack Reorganization   |   0.318 ms |   0.337 ms |   0.329 ms |   0.330 ms |           0.005 ms |
+| Day 4 - Camp Cleanup              |   0.137 ms |   0.140 ms |   0.139 ms |   0.139 ms |           0.001 ms |
+| Day 5 - Supply Stacks             |   0.170 ms |   0.174 ms |   0.173 ms |   0.173 ms |           0.001 ms |
+| Day 6 - Tuning Trouble            |   0.028 ms |   0.029 ms |   0.029 ms |   0.029 ms |           0.000 ms |
+| Day 7 - No Space Left On Device   |   0.185 ms |   0.188 ms |   0.186 ms |   0.187 ms |           0.001 ms |
+| Day 8 - Treetop Tree House        |   0.513 ms |   0.539 ms |   0.523 ms |   0.521 ms |           0.008 ms |
+| Day 9 - Rope Bridge               |   0.943 ms |   0.964 ms |   0.954 ms |   0.954 ms |           0.006 ms |
+| Day 10 - Cathode-Ray Tube         |   0.022 ms |   0.023 ms |   0.022 ms |   0.022 ms |           0.000 ms |
+| Day 11 - Monkey In The Middle     |   3.140 ms |   3.190 ms |   3.166 ms |   3.169 ms |           0.014 ms |
+| Day 12 - Hill Climbing Algorithm  |  29.744 ms |  31.156 ms |  30.622 ms |  30.613 ms |           0.353 ms |
+| Day 13 - Distress Signal          |   0.420 ms |   0.432 ms |   0.426 ms |   0.426 ms |           0.003 ms |
+| Day 14 - Regolith Reservoir       |  58.409 ms |  61.027 ms |  59.449 ms |  59.324 ms |           0.764 ms |
+| Day 15 - Beacon Exclusion Zone    | 133.735 ms | 140.129 ms | 136.489 ms | 135.957 ms |           1.777 ms |
+| Day 16 - Proboscidea Volcanium    | 730.019 ms | 775.538 ms | 750.803 ms | 750.714 ms |          13.966 ms |
+| Day 17 - Pyroclastic Flow         |   2.056 ms |   2.144 ms |   2.091 ms |   2.091 ms |           0.022 ms |
+| Day 18 - Boiling Boulders         |   1.028 ms |   1.074 ms |   1.054 ms |   1.052 ms |           0.011 ms |
+| Day 19 - Not Enough Minerals      | 131.870 ms | 141.179 ms | 136.107 ms | 136.157 ms |           2.409 ms |
+| Day 20 - Grove Positioning System |  34.480 ms |  35.278 ms |  34.902 ms |  34.911 ms |           0.260 ms |
 
 ## License
 

@@ -45,7 +45,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day 17 - Pyroclastic Flow",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day 18 - Boiling Boulders", "Day 18 - Boiling Boulders\Day 18 - Boiling Boulders.csproj", "{FEAD8FC3-F930-4EBD-B49D-6052A918ADD2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 19 - Not Enough Minerals", "Day 19 - Not Enough Minerals\Day 19 - Not Enough Minerals.csproj", "{A7B594AD-D540-4B3D-B842-F2238B653708}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Day 19 - Not Enough Minerals", "Day 19 - Not Enough Minerals\Day 19 - Not Enough Minerals.csproj", "{A7B594AD-D540-4B3D-B842-F2238B653708}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 20 - Grove Positioning System", "Day 20 - Grove Positioning System\Day 20 - Grove Positioning System.csproj", "{4D1839C7-2060-45AC-B189-7165EBC8A120}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{A7B594AD-D540-4B3D-B842-F2238B653708}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A7B594AD-D540-4B3D-B842-F2238B653708}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A7B594AD-D540-4B3D-B842-F2238B653708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D1839C7-2060-45AC-B189-7165EBC8A120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D1839C7-2060-45AC-B189-7165EBC8A120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D1839C7-2060-45AC-B189-7165EBC8A120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D1839C7-2060-45AC-B189-7165EBC8A120}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
