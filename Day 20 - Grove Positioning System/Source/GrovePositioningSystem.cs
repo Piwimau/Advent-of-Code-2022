@@ -33,7 +33,7 @@ internal sealed class GrovePositioningSystem {
     /// </exception>
     private static long SumOfGroveCoordinates(ImmutableArray<long> numbers, int mixingPasses) {
         ArgumentOutOfRangeException.ThrowIfNegative(mixingPasses, nameof(mixingPasses));
-        if (numbers.Count(number => number == 0) != 1) {
+        if (numbers.Count(number => number == 0L) != 1) {
             throw new ArgumentOutOfRangeException(
                 nameof(numbers),
                 "Exactly one out of the encrypted numbers must be a zero."
@@ -56,7 +56,7 @@ internal sealed class GrovePositioningSystem {
                 indices[newIndex] = originalIndex;
             }
         }
-        int indexOfZero = indices.IndexOf(numbers.IndexOf(0));
+        int indexOfZero = indices.IndexOf(numbers.IndexOf(0L));
         return numbers[indices[(indexOfZero + 1000) % numbers.Length]]
             + numbers[indices[(indexOfZero + 2000) % numbers.Length]]
             + numbers[indices[(indexOfZero + 3000) % numbers.Length]];

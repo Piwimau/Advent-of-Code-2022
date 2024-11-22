@@ -149,6 +149,7 @@ to `TextWriter.Null` when benchmarking, which is effectively a no-op and rather 
 | Day 18 - Boiling Boulders         |   1.028 ms |   1.074 ms |   1.054 ms |   1.052 ms |           0.011 ms |
 | Day 19 - Not Enough Minerals      | 131.870 ms | 141.179 ms | 136.107 ms | 136.157 ms |           2.409 ms |
 | Day 20 - Grove Positioning System |  34.480 ms |  35.278 ms |  34.902 ms |  34.911 ms |           0.260 ms |
+| Day 21 - Monkey Math              |   1.670 ms |   1.744 ms |   1.707 ms |   1.706 ms |           0.027 ms |
 
 ## License
 
