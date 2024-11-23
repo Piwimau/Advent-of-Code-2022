@@ -2,19 +2,19 @@
 using System.IO;
 using BenchmarkDotNet.Attributes;
 
-namespace MonkeyMath.Source;
+namespace MonkeyMap.Source;
 
-/// <summary>Represents a <see cref="Benchmark"/> for the <see cref="MonkeyMath"/> puzzle.</summary>
+/// <summary>Represents a <see cref="Benchmark"/> for the <see cref="MonkeyMap"/> puzzle.</summary>
 [MemoryDiagnoser]
 public class Benchmark {
 
-    /// <summary>Runs a benchmark for the <see cref="MonkeyMath"/> puzzle.</summary>
+    /// <summary>Runs a benchmark for the <see cref="MonkeyMap"/> puzzle.</summary>
     [Benchmark]
     [SuppressMessage(
         "Performance",
         "CA1822:Mark members as static",
         Justification = "Benchmarking static methods is not supported."
     )]
-    public void Run() => MonkeyMath.Solve(TextWriter.Null);
+    public void Run() => MonkeyMap.Solve(TextWriter.Null);
 
 }

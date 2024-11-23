@@ -150,6 +150,7 @@ to `TextWriter.Null` when benchmarking, which is effectively a no-op and rather 
 | Day 19 - Not Enough Minerals      | 131.870 ms | 141.179 ms | 136.107 ms | 136.157 ms |           2.409 ms |
 | Day 20 - Grove Positioning System |  34.480 ms |  35.278 ms |  34.902 ms |  34.911 ms |           0.260 ms |
 | Day 21 - Monkey Math              |   1.670 ms |   1.744 ms |   1.707 ms |   1.706 ms |           0.027 ms |
+| Day 22 - Monkey Map               |   0.553 ms |   0.591 ms |   0.570 ms |   0.573 ms |           0.011 ms |
 
 ## License
 
