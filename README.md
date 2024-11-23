@@ -151,6 +151,7 @@ to `TextWriter.Null` when benchmarking, which is effectively a no-op and rather 
 | Day 20 - Grove Positioning System |  34.480 ms |  35.278 ms |  34.902 ms |  34.911 ms |           0.260 ms |
 | Day 21 - Monkey Math              |   1.670 ms |   1.744 ms |   1.707 ms |   1.706 ms |           0.027 ms |
 | Day 22 - Monkey Map               |   0.553 ms |   0.591 ms |   0.570 ms |   0.573 ms |           0.011 ms |
+| Day 23 - Unstable Diffusion       | 425.963 ms | 436.287 ms | 430.321 ms | 430.350 ms |           2.572 ms |
 
 ## License
 

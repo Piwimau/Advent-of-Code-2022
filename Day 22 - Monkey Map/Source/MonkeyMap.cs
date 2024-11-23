@@ -21,7 +21,7 @@ internal sealed partial class MonkeyMap {
     private sealed class Map {
 
         /// <summary>
-        /// Represents an enumeration of all types of tiles found on the <see cref="Map"/>.
+        /// Represents an enumeration of all tiles found on the <see cref="Map"/>.
         /// </summary>
         private enum Tile { None, Empty, Wall }
 
@@ -47,8 +47,8 @@ internal sealed partial class MonkeyMap {
 
         /// <summary>Tiles of this <see cref="Map"/>.</summary>
         /// <remarks>
-        /// Note that this is actually a two-dimensional array (stored as a one-dimensional one for
-        /// improved cache locality and performance).
+        /// Note that this is actually a two-dimensional array, which is stored as a one-dimensional
+        /// one for improved cache locality and performance.
         /// </remarks>
         private readonly ImmutableArray<Tile> tiles;
 
@@ -56,10 +56,14 @@ internal sealed partial class MonkeyMap {
         /// <param name="tiles">Tiles of the <see cref="Map"/>.</param>
         /// <exception cref="ArgumentOutOfRangeException">
         /// Thrown when <paramref name="tiles"/> does not have the expected
-        /// <see cref="Width"/> * <see cref="Height"/> elements.
+        /// (<see cref="Width"/> * <see cref="Height"/>) elements.
         /// </exception>
         private Map(ImmutableArray<Tile> tiles) {
-            ArgumentOutOfRangeException.ThrowIfNotEqual(tiles.Length, Width * Height);
+            ArgumentOutOfRangeException.ThrowIfNotEqual(
+                tiles.Length,
+                Width * Height,
+                nameof(tiles)
+            );
             this.tiles = tiles;
         }
 
@@ -124,7 +128,9 @@ internal sealed partial class MonkeyMap {
         /// <param name="lines">Sequence of lines to parse the <see cref="Map"/> from.</param>
         /// <returns>A <see cref="Map"/> parsed from the given sequence of lines.</returns>
         /// <exception cref="ArgumentOutOfRangeException">
-        /// Thrown when <paramref name="lines"/> contains an invalid character.
+        /// Thrown when <paramref name="lines"/> contains an invalid character or the resulting
+        /// <see cref="Map"/> does not have the expected <see cref="Width"/> and
+        /// <see cref="Height"/>.
         /// </exception>
         public static Map Parse(ReadOnlySpan<string> lines) {
             // We store the (width * height) tiles of the two-dimensional map in an one-dimensional
@@ -168,7 +174,7 @@ internal sealed partial class MonkeyMap {
         ///     <item>
         ///     With <see cref="Wrapping.Cube"/>, the <see cref="Map"/> is folded and treated as a
         ///     three-dimensional cube. This causes coordinates to wrap around to adjacent faces,
-        ///     which in turn might result in a new <see cref="Direction"/>.
+        ///     which in turn might result in a new <see cref="Direction"/> being followed.
         ///     </item>
         /// </list>
         /// </remarks>
