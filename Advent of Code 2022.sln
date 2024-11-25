@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 22 - Monkey Map", "Day 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 23 - Unstable Diffusion", "Day 23 - Unstable Diffusion\Day 23 - Unstable Diffusion.csproj", "{B7ACCA7A-CC82-4BE8-83EE-BDCB50BA06A9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 24 - Blizzard Basin", "Day 24 - Blizzard Basin\Day 24 - Blizzard Basin.csproj", "{40CEA922-35E9-4B6A-9F4F-480B547D9D1D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{B7ACCA7A-CC82-4BE8-83EE-BDCB50BA06A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7ACCA7A-CC82-4BE8-83EE-BDCB50BA06A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7ACCA7A-CC82-4BE8-83EE-BDCB50BA06A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40CEA922-35E9-4B6A-9F4F-480B547D9D1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40CEA922-35E9-4B6A-9F4F-480B547D9D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40CEA922-35E9-4B6A-9F4F-480B547D9D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40CEA922-35E9-4B6A-9F4F-480B547D9D1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

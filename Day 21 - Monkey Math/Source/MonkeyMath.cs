@@ -315,11 +315,11 @@ internal sealed partial class MonkeyMath {
         "input.txt"
     );
 
-    [GeneratedRegex("(?<name>[a-z]{4}): (?<value>\\d+)")]
+    [GeneratedRegex("^(?<name>[a-z]{4}): (?<value>\\d+)$")]
     private static partial Regex ConstantNodeRegex();
 
     [GeneratedRegex(
-        "(?<name>[a-z]{4}): (?<leftName>[a-z]{4}) (?<operation>[+\\-*/]) (?<rightName>[a-z]{4})"
+        "^(?<name>[a-z]{4}): (?<leftName>[a-z]{4}) (?<operation>[+\\-*/]) (?<rightName>[a-z]{4})$"
     )]
     private static partial Regex OperationNodeRegex();
 
