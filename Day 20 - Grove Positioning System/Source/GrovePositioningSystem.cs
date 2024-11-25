@@ -3,7 +3,6 @@ using System.Collections.Immutable;
 using System.IO;
 using System.Linq;
 using BenchmarkDotNet.Running;
-using Microsoft.Diagnostics.Runtime;
 
 namespace GrovePositioningSystem.Source;
 

@@ -7,7 +7,6 @@ using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 using BenchmarkDotNet.Running;
-using Microsoft.Diagnostics.Runtime;
 
 namespace MonkeyMath.Source;
 

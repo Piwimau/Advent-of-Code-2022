@@ -6,7 +6,6 @@ using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 using BenchmarkDotNet.Running;
-using Microsoft.CodeAnalysis;
 
 namespace ProboscideaVolcanium.Source;
 

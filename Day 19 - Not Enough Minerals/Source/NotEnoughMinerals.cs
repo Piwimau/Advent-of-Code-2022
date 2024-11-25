@@ -7,7 +7,6 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 using BenchmarkDotNet.Running;
-using Microsoft.Diagnostics.Runtime;
 
 namespace NotEnoughMinerals.Source;
 

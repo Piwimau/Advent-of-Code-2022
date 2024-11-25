@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 23 - Unstable Diffusion
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 24 - Blizzard Basin", "Day 24 - Blizzard Basin\Day 24 - Blizzard Basin.csproj", "{40CEA922-35E9-4B6A-9F4F-480B547D9D1D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Day 25 - Full of Hot Air", "Day 25 - Full of Hot Air\Day 25 - Full of Hot Air.csproj", "{641A6A2E-0906-46D6-B5CD-D162F93D2671}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,10 @@ Global
 		{40CEA922-35E9-4B6A-9F4F-480B547D9D1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40CEA922-35E9-4B6A-9F4F-480B547D9D1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40CEA922-35E9-4B6A-9F4F-480B547D9D1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{641A6A2E-0906-46D6-B5CD-D162F93D2671}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{641A6A2E-0906-46D6-B5CD-D162F93D2671}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{641A6A2E-0906-46D6-B5CD-D162F93D2671}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{641A6A2E-0906-46D6-B5CD-D162F93D2671}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

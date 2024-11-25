@@ -7,7 +7,6 @@ using System.Linq;
 using System.Numerics;
 using System.Text.RegularExpressions;
 using BenchmarkDotNet.Running;
-using Microsoft.Diagnostics.Runtime;
 
 namespace BlizzardBasin.Source;
 
@@ -282,7 +281,7 @@ internal sealed partial class BlizzardBasin {
                 }
                 if (queue.Count == 0) {
                     throw new InvalidOperationException(
-                        $"Unable to reach destination {end} from {start}."
+                        $"Unable to reach checkpoint {end} from {start}."
                     );
                 }
             }
