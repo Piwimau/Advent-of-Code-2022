@@ -93,7 +93,7 @@ If you want to try out one of my solutions, simply follow these steps below:
    you have not downloaded them already.
 
    ```shell
-   cp input.txt "./Day 1 - Calorie Counting"
+   cp input.txt "./Day 1 - Calorie Counting/Resources"
    ```
 
 3. Nagivate into the appropriate day's directory.
