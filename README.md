@@ -19,7 +19,7 @@ to learn a new programming language (like I did in 2021 with `C#`) or some advan
 concepts. I can only encourage you to participate as well - of course in a way that you find fun.
 Just get started and learn more about Advent of Code [here](https://adventofcode.com/2022/about).
 
-## About This Project
+## About this project
 
 The solutions for Advent of Code 2022 were originally developed using `.NET 7` and `C# 11` at the
 time. Since then I have taken some time to update them to more recent versions (`.NET 9` and
@@ -38,30 +38,30 @@ solutions and sometimes little sketches to better illustrate the way a piece of 
 The general structure of this project is as follows:
 
 ```plaintext
-Day 1 - Calorie Counting/
-    Resources/
-        .gitkeep
-    Source/
-        Benchmark.cs
-        CalorieCounting.cs
-    Day 1 - Calorie Counting.csproj
-Day 2 - Rock Paper Scissors/
-    Resources/
-        .gitkeep
-    Source/
-        Benchmark.cs
-        RockPaperScissors.cs
-    Day 2 - Rock Paper Scissors.csproj
+Day-01-Calorie-Counting/
+  Resources/
+    .gitkeep
+  Source/
+    Benchmark.cs
+    CalorieCounting.cs
+  Day-01-Calorie-Counting.csproj
+Day-02-Rock-Paper-Scissors/
+  Resources/
+    .gitkeep
+  Source/
+    Benchmark.cs
+    RockPaperScissors.cs
+  Day-02-Rock-Paper-Scissors.csproj
 ...
-Day 25 - Full of Hot Air/
-    ...
+Day-25-Full-of-Hot-Air/
+  ...
 .gitignore
-Advent of Code 2022.sln
+Advent-of-Code-2022.sln
 LICENSE
 README.md
 ```
 
-On the top level, the [solution file](<Advent of Code 2022.sln>) contains 25 standalone projects
+On the top level, the [solution file](Advent-of-Code-2022.sln) contains 25 standalone projects
 for the days of the Advent calendar, organized into separate directories. Each one provides a
 corresponding `.csproj` file that can be opened in Visual Studio. In addition, there are the usual
 `Source` and `Resources` directories, the latter of which contains the puzzle description and my
@@ -75,7 +75,7 @@ therefore not publicly available.
 As a consequence, you will have to provide your own inputs for the days, as described in more detail
 in the following section.
 
-## Dependencies And Usage
+## Dependencies and usage
 
 If you want to try out one of my solutions, simply follow these steps below:
 
@@ -84,8 +84,8 @@ If you want to try out one of my solutions, simply follow these steps below:
 1. Clone the repository (or download the source code) to a directory of your choice.
 
    ```shell
-   git clone https://github.com/Piwimau/Advent-of-Code-2022 "./Advent of Code 2022"
-   cd "./Advent of Code 2022"
+   git clone https://github.com/Piwimau/Advent-of-Code-2022 ./Advent-of-Code-2022
+   cd ./Advent-of-Code-2022
    ```
 
 2. Put your input for the day in a file called `input.txt` and copy it to the appropriate resources
@@ -93,13 +93,13 @@ If you want to try out one of my solutions, simply follow these steps below:
    you have not downloaded them already.
 
    ```shell
-   cp input.txt "./Day 1 - Calorie Counting/Resources"
+   cp input.txt ./Day-01-Calorie-Counting/Resources
    ```
 
 3. Nagivate into the appropriate day's directory.
 
    ```shell
-   cd "./Day 1 - Calorie Counting"
+   cd ./Day-01-Calorie-Counting
    ```
 
 4. Finally, run the code in release mode to take advantage of all optimizations and achieve the best
@@ -117,7 +117,7 @@ If you want to try out one of my solutions, simply follow these steps below:
    ```
 
 If you have Visual Studio installed on your machine, you may also just open the provided
-[solution file](<Advent of Code 2022.sln>) and proceed from there.
+[solution file](Advent-of-Code-2022.sln) and proceed from there.
 
 ## Benchmarks
 
@@ -127,8 +127,8 @@ i9-13900HX, 32GB DDR5-5600 RAM) running Windows 11 24H2. All benchmarks include 
 reading the input from disk, as well as printing the puzzle results (although the output is written
 to `TextWriter.Null` when benchmarking, which is effectively a no-op and rather fast).
 
-| Day                               | Min         | Max         | Mean        | Median      | Standard Deviation |
-|-----------------------------------|-------------|-------------|-------------|-------------|--------------------|
+| Day                               |         Min |         Max |        Mean |      Median | Standard Deviation |
+|-----------------------------------|------------:|------------:|------------:|------------:|-------------------:|
 | Day 1 - Calorie Counting          |    0.069 ms |    0.071 ms |    0.069 ms |    0.069 ms |           0.001 ms |
 | Day 2 - Rock Paper Scissors       |    0.235 ms |    0.239 ms |    0.237 ms |    0.236 ms |           0.001 ms |
 | Day 3 - Rucksack Reorganization   |    0.318 ms |    0.337 ms |    0.329 ms |    0.330 ms |           0.005 ms |
